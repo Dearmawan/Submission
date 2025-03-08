@@ -2,10 +2,17 @@
 
 ## 📌 Deskripsi
 
-📊 Dashboard ini menampilkan 🔍 analisis penyewaan 🚲 berdasarkan berbagai faktor seperti 📅 tanggal, 🌤️ cuaca, dan 🍂 musim. Dibangun menggunakan 🖥️ Streamlit, 🐼 Pandas, 📈 Matplotlib, dan 📊 Seaborn.
+ Dashboard ini menampilkan  analisis penyewaan  berdasarkan berbagai faktor seperti  tanggal,  cuaca, dan  musim. Dibangun menggunakan  Streamlit,  Pandas,  Matplotlib, dan  Seaborn.
 
 ## ⚙️ Persyaratan
-
+## 📌 Setup Environment - Shell/Terminal
+```bash
+mkdir submission
+cd submission
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 Sebelum menjalankan 🚀 aplikasi, pastikan Anda telah menginstal 📥 dependensi berikut:
 
 **🐍 Python 3.x**
@@ -57,30 +64,6 @@ Sebelum menjalankan 🚀 aplikasi, pastikan Anda telah menginstal 📥 dependens
 Setelah menjalankan perintah di atas, 🖥️ Streamlit akan memberikan URL lokal (https://wquqvx6ddfpbvkykbesyzw.streamlit.app/).
 Buka URL tersebut di  browser untuk melihat dashboard 🚲.
 
-## 📊 Struktur Data
-
-📄 File day.csv harus memiliki kolom berikut:
-
-**dteday 📅: Tanggal penyewaan 🚲** 
-
-**cnt 🔢: Jumlah penyewaan 🚲**
-
-**weathersit 🌦️: Kondisi cuaca (1=☀️, 2=🌫️, 3=🌧️, 4=⛈️)**
-
-**season 🍂: Musim (1=🌱, 2=☀️, 3=🍁, 4=❄️)**
-
-
-## ⭐ Fitur Dashboard
-
-📅 Filter Rentang Waktu: Memilih data berdasarkan rentang 📆 tanggal tertentu
-
-📊 Total Rentals: Menampilkan total penyewaan 🚲 selama periode yang dipilih
-
-📈 Grafik Penyewaan Harian: Menampilkan 📊 tren penyewaan harian
-
-🌤️ Analisis Berdasarkan Cuaca: Menampilkan jumlah penyewaan berdasarkan kondisi 🌦️ cuaca
-
-🍂 Analisis Berdasarkan Musim: Menampilkan jumlah penyewaan berdasarkan 🍁 musim
 
 
 ## 🏛️ Hak Cipta
