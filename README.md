@@ -31,7 +31,7 @@ Sebelum menjalankan 🚀 aplikasi, pastikan Anda telah menginstal 📥 dependens
 
 1.  **Clone Repositori Ini:**
     ```bash
-    git clone <https://github.com/CCoupse/submission>
+    git clone <https://github.com/Dearmawan/Submission>
     cd <nama_repositori_Anda>
     ```
 
@@ -54,7 +54,7 @@ Sebelum menjalankan 🚀 aplikasi, pastikan Anda telah menginstal 📥 dependens
 
 
 ## 🌍 Akses Dashboard
-Setelah menjalankan perintah di atas, 🖥️ Streamlit akan memberikan URL lokal (misalnya http://localhost:8501).
+Setelah menjalankan perintah di atas, 🖥️ Streamlit akan memberikan URL lokal (https://wquqvx6ddfpbvkykbesyzw.streamlit.app/).
 Buka URL tersebut di  browser untuk melihat dashboard 🚲.
 
 ## 📊 Struktur Data
