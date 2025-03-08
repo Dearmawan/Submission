@@ -10,8 +10,6 @@ from sklearn.metrics import r2_score
 
 sns.set(style='dark')
 
-PRIMARY_COLOR = "#29B5DA"
-SECONDARY_COLOR = "#007BFF"
 
 # Fungsi untuk styling background
 def set_background():
