@@ -74,7 +74,7 @@ def create_byweekday_df(df):
     return byweekday_df
 
 # Load data
-day_df = pd.read_csv("dashboard\\day.csv")
+day_df = pd.read_csv("dashboard/day.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
 # Cek kolom yang ada
@@ -93,7 +93,7 @@ max_date = day_df["dteday"].max()
 set_background()
 
 with st.sidebar:
-    st.image("dashboard\\sepeda.png", width=200)
+    st.image("dashboard/sepeda.png", width=200)
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
